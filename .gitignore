@@ -1,3 +1,11 @@
-risposte.csv
+
+# Dati dei ragazzi: non vanno mai nel repository
+*.csv
+*.xlsx
+risposte*/
 sito/*.html
+
+# File di lavoro
+__pycache__/
+*.pyc
 .DS_Store
