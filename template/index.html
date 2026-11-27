@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>La mia pagina</title>
+
+  <style>
+    /* ============================================================
+       SFIDA 2 - I COLORI
+       Cambia i valori qui sotto (puoi scrivere un nome di colore
+       in inglese: red, orange, gold, hotpink, navy, teal...).
+       Poi salva e aggiorna la pagina nel browser.
+       ============================================================ */
+    :root {
+      --colore-sfondo: #e7fbf9;
+      --colore-titolo: #6386e4;
+      --colore-testo: #06044d;
+      --font: Verdana, sans-serif;   /* prova: Georgia, "Courier New", Impact */
+    }
+
+    /* ---- Da qui in giù il codice è già pronto: non serve toccarlo ---- */
+    body {
+      background: var(--colore-sfondo);
+      color: var(--colore-testo);
+      font-family: var(--font);
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 24px;
+      line-height: 1.6;
+    }
+    h1 { color: var(--colore-titolo); font-size: 2.4em; margin-bottom: 0; }
+    h2 { color: var(--colore-titolo); border-bottom: 3px solid var(--colore-titolo); padding-bottom: 4px; }
+    .avatar { font-size: 5em; }
+    img { max-width: 100%; border-radius: 12px; }
+    button {
+      font-size: 1em;
+      padding: 10px 18px;
+      margin: 4px;
+      border: none;
+      border-radius: 8px;
+      background: var(--colore-titolo);
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { opacity: 0.8; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       SFIDA 1 - IL TUO NOME E LA TUA PRESENTAZIONE
+       Sostituisci il testo tra i tag. Attenzione: i tag, cioè le
+       parti scritte tra parentesi angolari, NON vanno cancellati!
+       ============================================================ -->
+
+  <div class="avatar">🩵</div>  <!-- cambia l'emoji! -->
+
+  <h1>Ciao, Nami capobianco</h1>
+
+  <p>
+    Scrivi qui due righe su di te: quanti anni hai, dove abiti,
+    cosa ti piace fare nel tempo libero.
+  </p>
+
+
+  <!-- ============================================================
+       SFIDA 3 - LA LISTA DEI TUOI HOBBY
+       Ogni hobby sta dentro un tag li. Copia e incolla una riga
+       per aggiungerne altri.
+       ============================================================ -->
+
+  <h2>I miei hobby</h2>
+  <ul>
+    <li>cantare🎶</li>
+    <li>colorare🌸</li>
+    <li>ballare💃🏽</li>
+  </ul>
+
+
+  <!-- ============================================================
+       SFIDA 4 - UN'IMMAGINE
+       Nella riga qui sotto cancella i due simboli di commento,
+       quello all'inizio e quello alla fine della riga. Poi scrivi
+       il nome di un file che trovi nella cartella "immagini".
+       ============================================================ -->
+
+  <h2>La mia foto preferita</h2>
+   <img src="immagini/primavera.jpg" alt="La mia immagine"> 
+
+
+  <!-- ============================================================
+       SFIDA 5 (BONUS) - I BOTTONI MAGICI
+       Questi bottoni cambiano il colore dello sfondo della pagina.
+       Copia una riga con il tag button, cambia il colore dentro
+       gli apici e il testo del bottone: hai creato un tuo bottone!
+       ============================================================ -->
+
+  <h2>Cambia l'atmosfera</h2>
+  <button onclick="document.body.style.background='gold'">Oro</button>
+  <button onclick="document.body.style.background='lightblue'">Azzurro</button>
+  <button onclick="document.body.style.background='black'; document.body.style.color='white'">Notte</button>
+<button onclick="document.body.style.background='pink'">🌸</button>
+</body>
+</html>
